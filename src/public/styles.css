@@ -1,0 +1,70 @@
+body {
+  background-color: lightgray;
+  font: normal 16px Arial;
+  margin: 0;
+  line-height: 1.6em;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  background-color: coral;
+  color: #ffffff;
+  width: 100%;
+}
+header .logo-container,
+.content-container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  height: 100%;
+}
+
+.logo-img {
+  height: 70px;
+  width: 100px;
+  float: left;
+}
+
+.logo-text {
+  float: left;
+}
+
+.logo-highlight {
+  color: skyblue;
+}
+
+.video-container {
+  border: 1px coral solid;
+  margin-top: 30px;
+  min-height: 500px;
+  min-width: 800px;
+  position: relative;
+}
+
+.local-video {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  height: 150px;
+}
+
+.active-users-panel {
+  float: left;
+  width: 10%;
+  border-right: 1px dotted black;
+  height: 100%;
+  position: absolute;
+}
+.video-chat-container {
+  float: right;
+  width: 80%;
+}
+
+.talk-info {
+  text-align: center;
+}
+
+.active-user {
+  border: 1px solid black;
+}
